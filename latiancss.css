@@ -1,0 +1,65 @@
+h1 {
+    font-family: 'alex_brushregular' ; 
+    font-size: 50px;
+    font-weight: bolder;
+    color:darkmagenta;
+    text-shadow: 15px 15px 15px rgb(247, 242, 242);
+    text-align: center;
+    letter-spacing: 7px;
+}
+.afra,.afra1, #afra2{
+    text-align: justify;
+    font-family: 'Train One', cursive;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.afra1, #afra2 {
+    text-indent: 0.5in;
+    word-spacing: 9px;
+    color: black;
+}
+.afra{
+    text-indent: 0.5in;
+    word-spacing: 9px;
+    color: blueviolet;
+    font: verdana ;  
+    text-shadow: 3px 5px 4px wheat;
+}
+.afra1{
+    font-variant: small-caps;
+    text-shadow: 3px 5px 5px #c5149f, 3px 3px 5px whitesmoke;  
+}
+#afra2 {
+    text-shadow: 1px 3px 2px #c300ff, 3px 4px 5px black;
+    font-weight: bolder;
+}
+body {
+    background:url('lalisa\ \(2\).png') pink no-repeat bottom right  90px;
+    background-size: 300px;
+    background-attachment:fixed;   
+}
+a {
+    color: inherit;
+    font-weight: bold;
+}
+span {
+    text-decoration: line-through;
+}
+mark {
+    background-color: rgb(207, 30, 207);
+}
+@font-face {
+    font-family: 'alex_brushregular';
+    src: url('alexbrush-regular-webfont.woff2') format('woff2'),
+         url('alexbrush-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+h4 {
+    font-family: 'alex_brushregular' ; 
+    font-size: 35px;
+    font-weight: bolder;
+    color:#c5149f;
+    text-shadow: 15px 15px 15px rgb(247, 242, 242);
+}
